@@ -41,7 +41,7 @@ h4{
   font-size: 20px;
   opacity: 0;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  animation: h1 3s 9s alternate forwards, vanish 5s 16s forwards ;
+  animation: h1 3s 11s alternate forwards, vanish 5s 18s forwards ;
 }
 img{
   border-radius: 1rem;
@@ -73,7 +73,7 @@ main {
   grid-template-columns: 15% 1fr;
   height: 100vh;
   opacity: 0;
-  animation:appear 1s 22s forwards
+  animation:appear 1s 24s forwards
 }
 .sectionOne {
   display: flex;
