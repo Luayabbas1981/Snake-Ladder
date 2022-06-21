@@ -1,0 +1,660 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  user-select: none;
+  background-color: rgb(196, 195, 197);
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+h1{
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 37%;
+  color: #777;
+  font-style: italic;
+  font-size: 40px;
+  opacity: 0;
+  
+  animation: h1 3s alternate forwards, vanish 2s 4s forwards ;
+}
+h4{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 44%;
+  color: #777;
+  font-style: italic;
+  font-size: 20px;
+  opacity: 0;
+  animation: h1 3s alternate forwards , vanish 4s 6s forwards;
+}
+
+.photo {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 43%;
+  color: #777;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  animation: h1 3s 9s alternate forwards, vanish 5s 16s forwards ;
+}
+img{
+  border-radius: 1rem;
+}
+
+
+@keyframes h1 {
+  to{
+     opacity: 1;
+      transform: rotateX(360deg) scale(1.8);
+     
+  }
+}
+
+
+@keyframes vanish{
+  to{
+     opacity: 0;
+  }
+}
+@keyframes appear {
+  to{
+    opacity: 1;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  height: 100vh;
+  opacity: 0;
+  animation:appear 1s 22s forwards
+}
+.sectionOne {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 3%;
+  background-color: #c4ccd1;
+  border-radius: 1rem;
+}
+.sectionTwo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #e1e0e0;
+  border-radius: 1rem;
+}
+
+.ladder {
+  position: absolute;
+  font-size: 6vw;
+}
+.ladder1 {
+  font-size: 5.2vw;
+  bottom: 12.3%;
+  left: 14%;
+  transform: rotate(17deg);
+}
+.ladder2 {
+  font-size: 5.2vw;
+  bottom: 14.7%;
+  left: 66%;
+  transform: rotate(-17deg) scaleY(1.6);
+}
+.ladder3 {
+  font-size: 5.2vw;
+  bottom: 31.5%;
+  left: 88%;
+  transform: rotate(12deg) scaleY(1.7);
+}
+.ladder4 {
+  font-size: 5.2vw;
+  bottom: 40.5%;
+  left: 44.5%;
+  transform: rotate(-21deg) scaleY(1.5);
+}
+.ladder5 {
+  font-size: 5.2vw;
+  bottom: 48.7%;
+  left: 3%;
+  transform: rotate(6deg) scaleY(1.5);
+}
+.ladder6 {
+  font-size: 5.2vw;
+  bottom: 55.7%;
+  left: 18.5%;
+  transform: rotate(11deg);
+}
+.ladder7 {
+  font-size: 5.2vw;
+  bottom: 71.3%;
+  left: 81.5%;
+  transform: rotate(-12deg) scaleY(1.9);
+}
+#stone1 {
+  position: absolute;
+  width: 5.5vw;
+  height: 10vh;
+  border-radius: 50%;
+  background-color: #ff9800;
+}
+#stone2 {
+  position: absolute;
+  width: 5.5vw;
+  height: 10vh;
+  border-radius: 50%;
+  background-color: #3c657a;
+}
+
+.circle0 {
+  bottom: 6%;
+  left: -12%;
+}
+.position2 {
+  bottom: 6%;
+  left: -16%;
+}
+button {
+  position: absolute;
+  width: fit-content;
+  border: none;
+  min-height: 5vh;
+  max-height: fit-content;
+  background-color: #e1e0e0;
+  box-shadow: inset 0px 0px 10px rgb(103, 101, 101);
+  border-radius: 1rem;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color:  rgb(91, 139, 148);
+}
+.clickbutton {
+top: 40%;
+}
+.tryagain{
+  top: 50%;
+}
+
+.dice {
+  margin-top: 12%;
+  width: 4.5vw;
+  height: 7.5vh;
+  border-radius: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.firstPlayerInfo{
+  color: rgb(102, 102, 102);
+  font-size: .7vw;
+  font-weight: bold;
+ 
+}
+.firstPlayerInfo i{
+  font-size: .9vw;
+  color: red;
+}
+.span1{
+  font-size: 1.1vw;
+  background-color:rgb(213, 210, 210);
+  border-radius: .5rem;
+  color: #da8505;
+}
+.secondPlayerInfo{
+  color: rgb(102, 102, 102);
+  font-size: .7vw;
+  font-weight: bold;
+  
+}
+.secondPlayerInfo i{
+  font-size: .9vw;
+  color: red;
+}
+.span2{
+  font-size: 1.1vw;
+  background-color:rgb(213, 210, 210);
+  border-radius: .5rem;
+  color: #3c657a ;
+}
+.span3 {
+  font-size: 1.1vw;
+  color: red;
+}
+.span4{
+  font-size: 1.1vw;
+  color: #003cff;
+}
+.span5{
+  font-size: 1.1vw;
+ 
+  color: #b700ff;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 1.4vw;
+  font-weight: bold;
+  opacity: .5;
+}
+
+.arrow1{
+  top: 81%;
+    left: 12.5%;
+    transform: rotate(293deg);
+    color: rgb(83, 83, 249);
+  
+}
+.arrow2{
+  top: 77%;
+  left: 20%;
+  transform: rotate(109deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow3{
+  top: 83%;
+    left: 66%;
+    transform: rotate(252deg);
+    color: rgb(83, 83, 249);
+  
+}
+.arrow4{
+  top: 74%;
+  left: 71%;
+  transform: rotate(74deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow5{
+  top: 67%;
+    left: 92.5%;
+    transform: rotate(283deg);
+    color: rgb(83, 83, 249);
+}
+
+
+  
+
+.arrow6{
+  top: 55%;
+  left: 87%;
+  transform: rotate(102deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow7{
+  top: 56%;
+  left: 51.5%;
+  transform: rotate(249deg);
+  color: rgb(83, 83, 249);
+  
+}
+.arrow8{
+  top: 48%;
+  left: 42.5%;
+  transform: rotate(67deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow9{
+  top: 25%;
+  left: 88%;
+  transform: rotate(256deg);
+  color: rgb(83, 83, 249);
+  
+}
+.arrow10{
+  top: 15%;
+  left: 80%;
+  transform: rotate(76deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow11{
+  top: 39%;
+    left: 17%;
+    transform: rotate(286deg);
+    color: rgb(83, 83, 249);
+  
+}
+.arrow12{
+  top: 32%;
+  left: 24.5%;
+  transform: rotate(101deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow13{
+  top: 48%;
+  left: 1.7%;
+  transform: rotate(280deg);
+  color: rgb(83, 83, 249);
+  
+}
+.arrow14{
+  top: 36%;
+  left: 9%;
+  transform: rotate(98deg);
+  color: rgb(248, 53, 53);
+  
+}
+.arrow15{
+  top: 83%;
+    left: 48%;
+    color: rgb(170, 170, 170);
+  
+}
+.arrow16{
+  top: 43%;
+  left: 11%;
+  transform: rotate(-10deg);
+  color: rgb(170, 170, 170);
+}
+.arrow17{
+  top: 34%;
+  left: 56%;
+  transform: rotate(14deg);
+  color: rgb(170, 170, 170);
+}
+.arrow18{
+  top: 59%;
+  left: 74%;
+  transform: rotate(192deg);
+  color: rgb(170, 170, 170);
+}
+.arrow19{
+  top: 59%;
+  left: 31%;
+  transform: rotate(162deg);
+  color: rgb(170, 170, 170);
+}
+.arrow20{
+  top: 21%;
+  left: 71%;
+  transform: rotate(195deg);
+  color: rgb(170, 170, 170);
+}
+.arrow21{
+  top: 16%;
+  left: 34%;
+  transform: rotate(180deg);
+  color: rgb(170, 170, 170);
+}
+.arrow22{
+  top: 9%;
+    left: 4%;
+    transform: rotate(326deg);
+    color: rgb(170, 170, 170);
+}
+
+.circle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5vw;
+  height: 10vh;
+  border-radius: 50%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  background-color: #eee;
+  color: #aaa;
+  box-shadow: 0px 0px 20px #aaa;
+}
+.gameover{
+  font-size: 1.2vw;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+  
+
+.circle1 {
+  bottom: 6%;
+  left: 5%;
+}
+.circle2 {
+  bottom: 4%;
+  left: 13%;
+}
+.circle3 {
+  bottom: 4%;
+  left: 21%;
+}
+.circle4 {
+  bottom: 4%;
+  left: 29%;
+}
+.circle5 {
+  bottom: 4%;
+  left: 37%;
+}
+.circle6 {
+  bottom: 4%;
+  left: 45%;
+}
+.circle7 {
+  bottom: 4%;
+  left: 53%;
+}
+.circle8 {
+  bottom: 3%;
+  left: 61%;
+}
+.circle9 {
+  bottom: 3%;
+  left: 69%;
+}
+.circle10 {
+  bottom: 6%;
+  left: 77%;
+}
+.circle11 {
+  bottom: 8%;
+  left: 85%;
+}
+.circle12 {
+  bottom: 19%;
+  left: 87%;
+}
+.circle13 {
+  bottom: 26%;
+  left: 80%;
+}
+.circle14 {
+  bottom: 28%;
+  left: 72%;
+}
+.circle15 {
+  bottom: 30%;
+  left: 64%;
+}
+.circle16 {
+  bottom: 30%;
+  left: 56%;
+}
+.circle17 {
+  bottom: 30%;
+  left: 48%;
+}
+.circle18 {
+  bottom: 30%;
+  left: 40%;
+}
+.circle19 {
+  bottom: 28%;
+  left: 32%;
+}
+.circle20 {
+  bottom: 26%;
+  left: 24%;
+}
+.circle21 {
+  bottom: 25%;
+  left: 16%;
+}
+.circle22 {
+  bottom: 28%;
+  left: 8%;
+}
+.circle23 {
+  bottom: 37%;
+  left: 3%;
+}
+.circle24 {
+  bottom: 44%;
+  left: 10%;
+}
+.circle25 {
+  bottom: 47%;
+  left: 18%;
+}
+.circle26 {
+  bottom: 50%;
+  left: 26%;
+}
+.circle27 {
+  bottom: 53%;
+  left: 34%;
+}
+.circle28 {
+  bottom: 55%;
+  left: 42%;
+}
+.circle29 {
+  bottom: 55%;
+  left: 50%;
+}
+.circle30 {
+  bottom: 53%;
+  left: 58%;
+}
+.circle31 {
+  bottom: 51%;
+  left: 66%;
+}
+.circle32 {
+  bottom: 49%;
+  left: 74%;
+}
+.circle33 {
+  bottom: 45%;
+  left: 82%;
+}
+
+.circle34 {
+  bottom: 48%;
+  left: 90%;
+}
+.circle35 {
+  bottom: 58%;
+  left: 84%;
+}
+
+.circle36 {
+  bottom: 62%;
+  left: 76%;
+}
+.circle37 {
+  bottom: 66%;
+  left: 68%;
+}
+.circle38 {
+  bottom: 69%;
+  left: 60%;
+}
+.circle39 {
+  bottom: 70%;
+  left: 52%;
+}
+
+.circle40 {
+  bottom: 71%;
+  left: 44%;
+}
+.circle41 {
+  bottom: 71%;
+  left: 36%;
+}
+.circle42 {
+  bottom: 71%;
+  left: 28%;
+}
+.circle43 {
+  bottom: 69%;
+  left: 20%;
+}
+.circle44 {
+  bottom: 69%;
+  left: 12%;
+}
+.circle45 {
+  bottom: 65%;
+  left: 4%;
+}
+
+.circle46 {
+  bottom: 76%;
+  left: 2%;
+}
+.circle47 {
+  bottom: 83%;
+  left: 8%;
+}
+.circle48 {
+  bottom: 86%;
+  left: 16%;
+}
+.circle49 {
+  bottom: 89%;
+  left: 24%;
+}
+.circle50 {
+  bottom: 89%;
+  left: 32%;
+}
+.circle51 {
+  bottom: 89%;
+  left: 40%;
+}
+.circle52 {
+  bottom: 89%;
+  left: 48%;
+}
+.circle53 {
+  bottom: 89%;
+  left: 56%;
+}
+.circle54 {
+  bottom: 89%;
+  left: 64%;
+}
+.circle55 {
+  bottom: 89%;
+  left: 72%;
+}
+.circle56 {
+  bottom: 89%;
+  left: 80%;
+}
+.circle57 {
+  bottom: 89%;
+  left: 88%;
+}
+.circle58 {
+  bottom: 78%;
+  left: 92%;
+}
