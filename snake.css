@@ -172,7 +172,6 @@ main {
 }
 button {
   position: absolute;
-  width: fit-content;
   border: none;
   min-height: 5vh;
   max-height: fit-content;
