@@ -9,11 +9,11 @@ body {
 h1{
   position: absolute;
   text-align: center;
-  top: 40%;
-  left: 37%;
+  top: 35%;
+  left: 42%;
   color: #777;
   font-style: italic;
-  font-size: 40px;
+  font-size: 2.2vw;
   opacity: 0;
   
   animation: h1 3s alternate forwards, vanish 2s 4s forwards ;
@@ -21,11 +21,11 @@ h1{
 h4{
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 44%;
   left: 44%;
   color: #777;
   font-style: italic;
-  font-size: 20px;
+  font-size: .9vw;
   opacity: 0;
   animation: h1 3s alternate forwards , vanish 4s 6s forwards;
 }
@@ -33,25 +33,33 @@ h4{
 .photo {
   position: absolute;
   text-align: center;
-  top: 35%;
-  left: 43%;
+  top: 30%;
+  left: 38%;
   color: #777;
   font-style: italic;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.1vw;
   opacity: 0;
   font-family: 'Kdam Thmor Pro', sans-serif;
   animation: h1 3s 11s alternate forwards, vanish 5s 18s forwards ;
 }
+.image {
+  width: 20vw;
+  height: 36vh;
+}
+
 img{
-  border-radius: 1rem;
+ 
+  width: 100%;
+  height: 100%;
+ 
 }
 
 
 @keyframes h1 {
   to{
      opacity: 1;
-      transform: rotateX(360deg) scale(1.8);
+      transform: rotateX(360deg) scale(1.4);
      
   }
 }
