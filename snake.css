@@ -34,18 +34,18 @@ h4{
   position: absolute;
   text-align: center;
   top: 30%;
-  left: 38%;
+  left: 40%;
   color: #777;
   font-style: italic;
   font-weight: bold;
   font-size: 1.1vw;
   opacity: 0;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  animation: h1 3s 11s alternate forwards, vanish 5s 18s forwards ;
+  animation: h1 3s 9s alternate forwards, vanish 5s 18s forwards ;
 }
 .image {
-  width: 14vw;
-  height: 20vh;
+  width: 18vw;
+  height: 34vh;
 }
 
 img{
@@ -81,7 +81,7 @@ main {
   grid-template-columns: 15% 1fr;
   height: 100vh;
   opacity: 0;
-  animation:appear 1s 24s forwards
+  animation:appear 1s 20s forwards
 }
 .sectionOne {
   display: flex;
