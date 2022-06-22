@@ -41,8 +41,6 @@ function circlesCreator() {
   for (i = 1; i <= 58; i++) {
     const circle = document.createElement("div");
     circle.classList.add("circle", `circle${i}`);
-    circle.setAttribute("id", "circle");
-    circle.setAttribute("data-num", i);
     circle.textContent = `${i}`;
     sectionTwo.appendChild(circle);
   }

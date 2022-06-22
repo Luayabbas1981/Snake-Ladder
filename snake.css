@@ -433,10 +433,12 @@ img {
 .circle1 {
   bottom: 6%;
   left: 5%;
+  color: rgb(5, 187, 5);
 }
 .circle2 {
   bottom: 4%;
   left: 13%;
+  color: blue;
 }
 .circle3 {
   bottom: 4%;
@@ -465,6 +467,7 @@ img {
 .circle9 {
   bottom: 3%;
   left: 69%;
+  color: blue;
 }
 .circle10 {
   bottom: 6%;
@@ -477,6 +480,7 @@ img {
 .circle12 {
   bottom: 19%;
   left: 87%;
+  color: blue;
 }
 .circle13 {
   bottom: 26%;
@@ -489,6 +493,7 @@ img {
 .circle15 {
   bottom: 30%;
   left: 64%;
+  color: red;
 }
 .circle16 {
   bottom: 30%;
@@ -497,6 +502,7 @@ img {
 .circle17 {
   bottom: 30%;
   left: 48%;
+  color: blue;
 }
 .circle18 {
   bottom: 30%;
@@ -513,6 +519,7 @@ img {
 .circle21 {
   bottom: 25%;
   left: 16%;
+  color: red;
 }
 .circle22 {
   bottom: 28%;
@@ -521,6 +528,7 @@ img {
 .circle23 {
   bottom: 37%;
   left: 3%;
+  color: blue;
 }
 .circle24 {
   bottom: 44%;
@@ -529,6 +537,7 @@ img {
 .circle25 {
   bottom: 47%;
   left: 18%;
+  color: blue;
 }
 .circle26 {
   bottom: 50%;
@@ -541,6 +550,7 @@ img {
 .circle28 {
   bottom: 55%;
   left: 42%;
+  color: red;
 }
 .circle29 {
   bottom: 55%;
@@ -566,6 +576,7 @@ img {
 .circle34 {
   bottom: 48%;
   left: 90%;
+  color: red;
 }
 .circle35 {
   bottom: 58%;
@@ -575,6 +586,7 @@ img {
 .circle36 {
   bottom: 62%;
   left: 76%;
+  color: blue;
 }
 .circle37 {
   bottom: 66%;
@@ -604,6 +616,7 @@ img {
 .circle43 {
   bottom: 69%;
   left: 20%;
+  color: red;
 }
 .circle44 {
   bottom: 69%;
@@ -612,6 +625,7 @@ img {
 .circle45 {
   bottom: 65%;
   left: 4%;
+  color: red;
 }
 
 .circle46 {
@@ -657,6 +671,7 @@ img {
 .circle56 {
   bottom: 89%;
   left: 80%;
+  color: red;
 }
 .circle57 {
   bottom: 89%;
@@ -665,4 +680,5 @@ img {
 .circle58 {
   bottom: 78%;
   left: 92%;
+  color: rgb(199, 183, 6);
 }
