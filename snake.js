@@ -307,7 +307,7 @@ function secondPlayer() {
   }, 1000);
   if (  (sectionTwo.children[67].classList.contains(`circle${58}`))){
     clickButton.style.display="none"
-    gameOver.textContent="Game over, sorry you lose"
+    gameOver.textContent="Game over, sorry you losed"
    }
 }
 tryAgain.addEventListener("click", () => window.location.reload(true));
