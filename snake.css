@@ -43,9 +43,7 @@ h4{
   font-family: 'Kdam Thmor Pro', sans-serif;
   animation: h1 3s 9s alternate forwards, vanish 5s 18s forwards ;
 }
-.photo i {
-  color: rgb(94, 154, 227);
-}
+
 .image {
   width: 18vw;
   height: 34vh;
