@@ -42,6 +42,7 @@ h4{
   opacity: 0;
   font-family: 'Kdam Thmor Pro', sans-serif;
   animation: h1 3s 9s alternate forwards, vanish 5s 18s forwards ;
+
 }
 
 .image {
@@ -581,12 +582,13 @@ img {
 .circle35 {
   bottom: 58%;
   left: 84%;
+  color: blue;
 }
 
 .circle36 {
   bottom: 62%;
   left: 76%;
-  color: blue;
+  
 }
 .circle37 {
   bottom: 66%;
