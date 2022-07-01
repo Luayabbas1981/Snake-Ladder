@@ -216,7 +216,7 @@ function secondPlayer() {
     newPosition2 += randomNum;
     let oldPosition = newPosition2 - randomNum;
     clickButton.textContent = "Click to thrwo the dice";
-    secondPlayerInfo.innerHTML = `<span class="span2">2.pl</span> Old Position <span class="span4">${oldPosition}</span>  <i class="fa-solid fa-angles-right fa-fade"></i> New Position <span class="span5">${newPosition2}</span> `;
+    secondPlayerInfo.innerHTML = `<span class="span2">pl.2</span> Old Position <span class="span4">${oldPosition}</span>  <i class="fa-solid fa-angles-right fa-fade"></i> New Position <span class="span5">${newPosition2}</span> `;
     if (newPosition2 == 21 && oldPosition > 2) {
       sectionTwo.children[67].classList.replace(`circle${21}`, `circle${2}`);
       newPosition2 = 2;
