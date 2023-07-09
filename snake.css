@@ -145,15 +145,15 @@ main {
 }
 #stone1 {
   position: absolute;
-  width: 5.5vw;
-  height: 10vh;
+  width: 5.3vw;
+  height: 5.3vw;
   border-radius: 50%;
   background-color: #ff9800;
 }
 #stone2 {
   position: absolute;
-  width: 5.5vw;
-  height: 10vh;
+  width: 5.3vw;
+  height: 5.3vw;
   border-radius: 50%;
   background-color: #3c657a;
 }
