@@ -4,9 +4,9 @@ body {
   height: 100vh;
   user-select: none;
   background-color: rgb(196, 195, 197);
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
 }
-h1{
+h1 {
   position: absolute;
   text-align: center;
   top: 35%;
@@ -15,19 +15,19 @@ h1{
   font-style: italic;
   font-size: 2.2vw;
   opacity: 0;
-  
-  animation: h1 3s alternate forwards, vanish 2s 4s forwards ;
+
+  animation: h1 3s alternate forwards, vanish 2s 4s forwards;
 }
-h4{
+h4 {
   position: absolute;
   text-align: center;
   top: 44%;
   left: 44%;
   color: #777;
   font-style: italic;
-  font-size: .9vw;
+  font-size: 0.9vw;
   opacity: 0;
-  animation: h1 3s alternate forwards , vanish 4s 6s forwards;
+  animation: h1 3s alternate forwards, vanish 4s 6s forwards;
 }
 
 .photo {
@@ -40,9 +40,8 @@ h4{
   font-weight: bold;
   font-size: 1.1vw;
   opacity: 0;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  animation: h1 3s 9s alternate forwards, vanish 5s 18s forwards ;
-
+  font-family: "Kdam Thmor Pro", sans-serif;
+  animation: h1 3s 9s alternate forwards, vanish 5s 18s forwards;
 }
 
 .image {
@@ -50,30 +49,25 @@ h4{
   height: 34vh;
 }
 
-img{
- 
+img {
   width: 100%;
   height: 100%;
- 
 }
 
-
 @keyframes h1 {
-  to{
-     opacity: 1;
-      transform: rotateX(360deg) scale(1.4);
-     
+  to {
+    opacity: 1;
+    transform: rotateX(360deg) scale(1.4);
   }
 }
 
-
-@keyframes vanish{
-  to{
-     opacity: 0;
+@keyframes vanish {
+  to {
+    opacity: 0;
   }
 }
 @keyframes appear {
-  to{
+  to {
     opacity: 1;
   }
 }
@@ -83,7 +77,7 @@ main {
   grid-template-columns: 15% 1fr;
   height: 100vh;
   opacity: 0;
-  animation:appear 1s 20s forwards
+  animation: appear 1s 20s forwards;
 }
 .sectionOne {
   display: flex;
@@ -174,21 +168,21 @@ main {
 }
 button {
   position: absolute;
+  padding: 0.6vw;
   border: none;
-  min-height: 5vh;
-  max-height: fit-content;
+  height: 4vw;
   background-color: #e1e0e0;
-  box-shadow: inset 0px 0px 10px rgb(103, 101, 101);
+  box-shadow: inset 0px 0px 10px #676565;
   border-radius: 1rem;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
   font-weight: bold;
-  font-size: large;
-  color:  rgb(91, 139, 148);
+  font-size: 1.1vw;
+  color: #5b8b94;
 }
 .clickbutton {
-top: 40%;
+  top: 40%;
 }
-.tryagain{
+.tryagain {
   top: 50%;
 }
 
@@ -204,50 +198,47 @@ img {
   height: 100%;
 }
 
-
-.firstPlayerInfo{
+.firstPlayerInfo {
   color: rgb(102, 102, 102);
-  font-size: .7vw;
+  font-size: 0.7vw;
   font-weight: bold;
- 
 }
-.firstPlayerInfo i{
-  font-size: .9vw;
+.firstPlayerInfo i {
+  font-size: 0.9vw;
   color: red;
 }
-.span1{
+.span1 {
   font-size: 1.1vw;
-  background-color:rgb(213, 210, 210);
-  border-radius: .5rem;
+  background-color: rgb(213, 210, 210);
+  border-radius: 0.5rem;
   color: #da8505;
 }
-.secondPlayerInfo{
+.secondPlayerInfo {
   color: rgb(102, 102, 102);
-  font-size: .7vw;
+  font-size: 0.7vw;
   font-weight: bold;
-  
 }
-.secondPlayerInfo i{
-  font-size: .9vw;
+.secondPlayerInfo i {
+  font-size: 0.9vw;
   color: red;
 }
-.span2{
+.span2 {
   font-size: 1.1vw;
-  background-color:rgb(213, 210, 210);
-  border-radius: .5rem;
-  color: #3c657a ;
+  background-color: rgb(213, 210, 210);
+  border-radius: 0.5rem;
+  color: #3c657a;
 }
 .span3 {
   font-size: 1.1vw;
   color: red;
 }
-.span4{
+.span4 {
   font-size: 1.1vw;
   color: #003cff;
 }
-.span5{
+.span5 {
   font-size: 1.1vw;
- 
+
   color: #b700ff;
 }
 
@@ -255,157 +246,140 @@ img {
   position: absolute;
   font-size: 1.4vw;
   font-weight: bold;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.arrow1{
+.arrow1 {
   top: 81%;
-    left: 12.5%;
-    transform: rotate(293deg);
-    color: rgb(83, 83, 249);
-  
+  left: 12.5%;
+  transform: rotate(293deg);
+  color: rgb(83, 83, 249);
 }
-.arrow2{
+.arrow2 {
   top: 77%;
   left: 20%;
   transform: rotate(109deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow3{
+.arrow3 {
   top: 83%;
-    left: 66%;
-    transform: rotate(252deg);
-    color: rgb(83, 83, 249);
-  
+  left: 66%;
+  transform: rotate(252deg);
+  color: rgb(83, 83, 249);
 }
-.arrow4{
+.arrow4 {
   top: 74%;
   left: 71%;
   transform: rotate(74deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow5{
+.arrow5 {
   top: 67%;
-    left: 92.5%;
-    transform: rotate(283deg);
-    color: rgb(83, 83, 249);
+  left: 92.5%;
+  transform: rotate(283deg);
+  color: rgb(83, 83, 249);
 }
 
-
-  
-
-.arrow6{
+.arrow6 {
   top: 55%;
   left: 87%;
   transform: rotate(102deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow7{
+.arrow7 {
   top: 56%;
   left: 51.5%;
   transform: rotate(249deg);
   color: rgb(83, 83, 249);
-  
 }
-.arrow8{
+.arrow8 {
   top: 48%;
   left: 42.5%;
   transform: rotate(67deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow9{
+.arrow9 {
   top: 25%;
   left: 88%;
   transform: rotate(256deg);
   color: rgb(83, 83, 249);
-  
 }
-.arrow10{
+.arrow10 {
   top: 15%;
   left: 80%;
   transform: rotate(76deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow11{
+.arrow11 {
   top: 39%;
-    left: 17%;
-    transform: rotate(286deg);
-    color: rgb(83, 83, 249);
-  
+  left: 17%;
+  transform: rotate(286deg);
+  color: rgb(83, 83, 249);
 }
-.arrow12{
+.arrow12 {
   top: 32%;
   left: 24.5%;
   transform: rotate(101deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow13{
+.arrow13 {
   top: 48%;
   left: 1.7%;
   transform: rotate(280deg);
   color: rgb(83, 83, 249);
-  
 }
-.arrow14{
+.arrow14 {
   top: 36%;
   left: 9%;
   transform: rotate(98deg);
   color: rgb(248, 53, 53);
-  
 }
-.arrow15{
+.arrow15 {
   top: 83%;
-    left: 48%;
-    color: rgb(170, 170, 170);
-  
+  left: 48%;
+  color: rgb(170, 170, 170);
 }
-.arrow16{
+.arrow16 {
   top: 43%;
   left: 11%;
   transform: rotate(-10deg);
   color: rgb(170, 170, 170);
 }
-.arrow17{
+.arrow17 {
   top: 34%;
   left: 56%;
   transform: rotate(14deg);
   color: rgb(170, 170, 170);
 }
-.arrow18{
+.arrow18 {
   top: 59%;
   left: 74%;
   transform: rotate(192deg);
   color: rgb(170, 170, 170);
 }
-.arrow19{
+.arrow19 {
   top: 59%;
   left: 31%;
   transform: rotate(162deg);
   color: rgb(170, 170, 170);
 }
-.arrow20{
+.arrow20 {
   top: 21%;
   left: 71%;
   transform: rotate(195deg);
   color: rgb(170, 170, 170);
 }
-.arrow21{
+.arrow21 {
   top: 16%;
   left: 34%;
   transform: rotate(180deg);
   color: rgb(170, 170, 170);
 }
-.arrow22{
+.arrow22 {
   top: 9%;
-    left: 4%;
-    transform: rotate(326deg);
-    color: rgb(170, 170, 170);
+  left: 4%;
+  transform: rotate(326deg);
+  color: rgb(170, 170, 170);
 }
 
 .circle {
@@ -416,20 +390,19 @@ img {
   width: 5.5vw;
   height: 5.5vw;
   border-radius: 50%;
-  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-family: "Kdam Thmor Pro", sans-serif;
   font-size: 1.7vw;
   font-weight: bold;
   background-color: #eee;
   color: #aaa;
   box-shadow: 0px 0px 20px #aaa;
 }
-.gameover{
+.gameover {
   font-size: 1vw;
   color: red;
   font-weight: bold;
   text-align: center;
 }
-  
 
 .circle1 {
   bottom: 6%;
@@ -588,7 +561,6 @@ img {
 .circle36 {
   bottom: 62%;
   left: 76%;
-  
 }
 .circle37 {
   bottom: 66%;
